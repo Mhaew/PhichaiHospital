@@ -11,11 +11,17 @@ class Home extends BaseController
         ]);
     }
 
-        public function contact(): string
+    public function contact(): string
     {
         return view('pages/contact', [
             'title' => 'ติดต่อเรา | Contact'
         ]);
     }
-}  
 
+    public function ita68(): string
+    {
+        return view('pages/ita68', [
+            'title' => 'ITA 2568'
+        ]);
+    }
+}

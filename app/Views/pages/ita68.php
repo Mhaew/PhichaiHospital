@@ -1,12 +1,19 @@
 <?= $this->extend('templates/index') ?>
 <?= $this->section('content') ?>
 
+<<<<<<< HEAD
 
 
 <main class="main">
 
     <!-- Page Title -->
     <div class="page-title" data-aos="fade-up" data-aos-delay="100">
+=======
+<main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title"  data-aos="fade-up" data-aos-delay="100">
+>>>>>>> 5fada889801cce5c3402b8f1611247b197b2ad7a
         <div class="breadcrumbs">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
@@ -27,6 +34,7 @@
         </div>
     </div><!-- End Page Title -->
 
+<<<<<<< HEAD
     <div id="sidebar-banner">
         <button onclick="location.href='#service-details-2'">MOIT1</button>
         <button onclick="location.href='#service-details-3'">MOIT2</button>
@@ -57,6 +65,8 @@
     <button onclick="location.href='#service-details-4'">MOIT3</button>
     <button onclick="location.href='#service-details-5'">MOIT4</button> -->
 
+=======
+>>>>>>> 5fada889801cce5c3402b8f1611247b197b2ad7a
     <!-- Doctors Section -->
     <section id="doctors" class="doctors section">
 
@@ -88,6 +98,7 @@
                     </div>
                 </div><!-- End Doctor Card -->
 
+<<<<<<< HEAD
                 <!-- <section id="call-to-action" class="call-to-action section">
 
                     <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -587,6 +598,14 @@
             </div>
         </div>
     </section><!-- /Doctors Section -->
+=======
+            </div>
+
+        </div>
+
+    </section><!-- /Doctors Section -->
+
+>>>>>>> 5fada889801cce5c3402b8f1611247b197b2ad7a
 </main>
 
 

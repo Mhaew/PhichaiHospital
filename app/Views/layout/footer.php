@@ -58,8 +58,16 @@
                 </ul>
             </div> -->
 
+<<<<<<< HEAD
 
             <div class="col-lg-3 col-md-6 footer-links">
+=======
+            <div class="col-lg-4 col-md-2 footer-links">
+                <div class="calendar"></div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 footer-links">
+>>>>>>> 5fada889801cce5c3402b8f1611247b197b2ad7a
                 <h4>โรงพยาบาลอื่น ๆ ในอุตรดิตถ์</h4>
                 <ul>
                     <li><a href="https://utodcc.moph.go.th/2018/web">สำนักงานสาธารณสุขจังหวัดอุตรดิตถ์</a></li>
@@ -67,16 +75,22 @@
                     <li><a href="https://tskhos.moph.go.th/web/">โรงพยาบาลทองแสนขัน</a></li>
                     <li><a href="https://laplaehospital.moph.go.th/">โรงพยาบาลลับแล</a></li>
                     <li><a href="https://nampadhosp.moph.go.th/bkwww/contact.html">โรงพยาบาลน้ำปาด</a></li>
+<<<<<<< HEAD
                     <li><a
                             href="https://healthserv.net/%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B8%9E%E0%B8%A2%E0%B8%B2%E0%B8%9A%E0%B8%B2%E0%B8%A5%E0%B8%97%E0%B9%88%E0%B8%B2%E0%B8%9B%E0%B8%A5%E0%B8%B2-hospd60756">โรงพยาบาลท่าปลา</a>
                     </li>
                     <li><a
                             href="https://healthserv.net/%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B8%9E%E0%B8%A2%E0%B8%B2%E0%B8%9A%E0%B8%B2%E0%B8%A5%E0%B8%9F%E0%B8%B2%E0%B8%81%E0%B8%97%E0%B9%88%E0%B8%B2-hospd60760">โรงพยาบาลฟากท่า</a>
                     </li>
+=======
+                    <li><a href="https://healthserv.net/%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B8%9E%E0%B8%A2%E0%B8%B2%E0%B8%9A%E0%B8%B2%E0%B8%A5%E0%B8%97%E0%B9%88%E0%B8%B2%E0%B8%9B%E0%B8%A5%E0%B8%B2-hospd60756">โรงพยาบาลท่าปลา</a></li>
+                    <li><a href="https://healthserv.net/%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B8%9E%E0%B8%A2%E0%B8%B2%E0%B8%9A%E0%B8%B2%E0%B8%A5%E0%B8%9F%E0%B8%B2%E0%B8%81%E0%B8%97%E0%B9%88%E0%B8%B2-hospd60760">โรงพยาบาลฟากท่า</a></li>
+>>>>>>> 5fada889801cce5c3402b8f1611247b197b2ad7a
                     <li><a href="https://www.bkh11162.com/bankhok2554/">โรงพยาบาลบ้านโคก</a></li>
                 </ul>
             </div>
 
+<<<<<<< HEAD
             <div class="col-lg-4 col-md-7">
                 <div id='calendar'></div>
             </div>
@@ -112,12 +126,18 @@
                     </div>
                 </div>
             </div>
+=======
+>>>>>>> 5fada889801cce5c3402b8f1611247b197b2ad7a
         </div>
     </div>
 
     <div class="container copyright text-center mt-4">
+<<<<<<< HEAD
         <p>© <span>Copyright</span> <strong class="px-1 sitename">Phichai Hospital</strong> <span>All Rights
                 Reserved</span></p>
+=======
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Phichai Hospital</strong> <span>All Rights Reserved</span></p>
+>>>>>>> 5fada889801cce5c3402b8f1611247b197b2ad7a
         <div class="credits">
             <!-- All the links in the footer should remain intact. -->
             <!-- You can delete the links only if you've purchased the pro version. -->
@@ -130,8 +150,12 @@
 </footer>
 
 <!-- Scroll Top -->
+<<<<<<< HEAD
 <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
         class="bi bi-arrow-up-short"></i></a>
+=======
+<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+>>>>>>> 5fada889801cce5c3402b8f1611247b197b2ad7a
 
 <!-- Preloader -->
 <div id="preloader"></div>
@@ -146,6 +170,7 @@
 <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
 
+<<<<<<< HEAD
 <!-- calendar -->
 <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js'></script>
 <script src='https://cdn.jsdelivr.net/npm/@fullcalendar/core@4.2.0/main.min.js'></script>
@@ -203,6 +228,57 @@ generateCalendar();
 
 <!-- ปฏิทินกิจกรรม -->
 <!-- <script>
+=======
+<!-- Main JS File -->
+<script src="assets/js/main.js"></script>
+
+<script>
+    function generateCalendar() {
+        const today = new Date();
+        const year = today.getFullYear();
+        const month = today.getMonth();
+
+        const firstDay = new Date(year, month, 1);
+        const lastDay = new Date(year, month + 1, 0);
+        const daysInMonth = lastDay.getDate();
+        const startDay = firstDay.getDay();
+
+        const monthNames = ['มกราคม', 'กุมภาพันธ์', 'มีนาคม', 'เมษายน', 'พฤษภาคม', 'มิถุนายน',
+            'กรกฎาคม', 'สิงหาคม', 'กันยายน', 'ตุลาคม', 'พฤศจิกายน', 'ธันวาคม'
+        ];
+
+        let html = `<h2>${monthNames[month]} ${year}</h2>`;
+        html += `<table><tr>
+                <th>อา</th><th>จ</th><th>อ</th><th>พ</th><th>พฤ</th><th>ศ</th><th>ส</th>
+              </tr><tr>`;
+
+        for (let i = 0; i < startDay; i++) {
+            html += "<td></td>";
+        }
+
+        for (let day = 1; day <= daysInMonth; day++) {
+            const date = new Date(year, month, day);
+            const isToday = (today.getDate() === day &&
+                today.getMonth() === month &&
+                today.getFullYear() === year);
+
+            html += `<td class="${isToday ? 'today' : ''}">${day}</td>`;
+
+            if ((startDay + day) % 7 === 0) {
+                html += "</tr><tr>";
+            }
+        }
+
+        html += "</tr></table>";
+        document.getElementById("calendar").innerHTML = html;
+    }
+
+    generateCalendar();
+</script>
+
+<!-- ปฏิทินกิจกรรม -->
+<script>
+>>>>>>> 5fada889801cce5c3402b8f1611247b197b2ad7a
     function generateCalendar() {
         const today = new Date();
         const year = today.getFullYear();
@@ -219,8 +295,13 @@ generateCalendar();
 
         let html = `<h5>${monthNames[month]} ${year}</h5>`;
         html += `<table><thead><tr>
+<<<<<<< HEAD
                 <th>อา</th><th>จ</th><th>อ</th><th>พ</th><th>พฤ</th><th>ศ</th><th>ส</th>
                 </tr></thead><tbody><tr>`;
+=======
+              <th>อา</th><th>จ</th><th>อ</th><th>พ</th><th>พฤ</th><th>ศ</th><th>ส</th>
+            </tr></thead><tbody><tr>`;
+>>>>>>> 5fada889801cce5c3402b8f1611247b197b2ad7a
 
         for (let i = 0; i < startDay; i++) {
             html += '<td></td>';
@@ -244,9 +325,15 @@ generateCalendar();
 
     // เรียกเมื่อโหลดหน้า
     document.addEventListener('DOMContentLoaded', generateCalendar);
+<<<<<<< HEAD
     </script>
 
     <script>
+=======
+</script>
+
+<script>
+>>>>>>> 5fada889801cce5c3402b8f1611247b197b2ad7a
     const el = document.getElementById("floatingVideo");
 
     el.addEventListener('mousedown', dragMouseDown);
@@ -277,7 +364,11 @@ generateCalendar();
             document.onmousemove = null;
         }
     }
+<<<<<<< HEAD
 </script> -->
+=======
+</script>
+>>>>>>> 5fada889801cce5c3402b8f1611247b197b2ad7a
 
 <!-- <script>
     window.addEventListener("load", function() {
@@ -294,6 +385,7 @@ generateCalendar();
     });
 </script> -->
 
+<<<<<<< HEAD
 <script>
   // เลื่อนหน้าแบบ smooth ไปยังหัวข้อที่ปุ่มกำหนด
   document.querySelectorAll('#sidebar-banner button').forEach(button => {
@@ -562,6 +654,8 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
+=======
+>>>>>>> 5fada889801cce5c3402b8f1611247b197b2ad7a
 
 
 

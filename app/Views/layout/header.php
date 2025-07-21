@@ -15,13 +15,9 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-<<<<<<< HEAD
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-=======
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
->>>>>>> 5fada889801cce5c3402b8f1611247b197b2ad7a
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -34,15 +30,12 @@
     <!-- Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet">
 
-<<<<<<< HEAD
     <!-- calendar -->
     <!-- <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css'> -->
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css'>
     <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/@fullcalendar/core@4.2.0/main.min.css'>
     <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/@fullcalendar/daygrid@4.3.0/main.min.css'>
 
-=======
->>>>>>> 5fada889801cce5c3402b8f1611247b197b2ad7a
     <!-- =======================================================
   * Template Name: MediTrust
   * Template URL: https://bootstrapmade.com/meditrust-bootstrap-hospital-website-template/
@@ -50,7 +43,6 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-<<<<<<< HEAD
     <style>
     .service-features ul {
         list-style: none;
@@ -67,9 +59,26 @@
     .service-features li a {
         margin-bottom: 0.75rem;
         display: flex;
-        align-items: center;
+        align-items: flex-start;
+        text-decoration: none;
         gap: 0.5rem;
     }
+
+    .service-features h4 {
+        margin-bottom: 0.75rem;
+        display: flex;
+        align-items: flex-start;
+        text-decoration: none;
+        gap: 0.5rem;
+    }
+
+    /* .service-features li a {
+        display: flex;
+        align-items: flex-start;
+        text-decoration: none;
+        color: inherit;
+        gap: 0.5rem;
+    } */
 
 
     .service-features li img {
@@ -82,6 +91,46 @@
         margin-left: 30px;
         margin-top: 5px;
     }
+
+    /* .service-features ul {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    .service-features li {
+        margin-bottom: 2rem;
+    } */
+
+    .doc-header {
+        font-size: 1rem;
+        margin-bottom: 0.25rem;
+        color: #444;
+    }
+
+    /* .service-features li a {
+        display: flex;
+        align-items: flex-start;
+        text-decoration: none;
+        color: inherit;
+        gap: 0.5rem;
+    } */
+
+    /* .service-features li img {
+        width: 24px;
+        height: 24px;
+        margin-top: 0.2rem;
+    } */
+
+    .doc-code {
+        min-width: 3rem;
+
+        flex-shrink: 0;
+    }
+
+    .doc-text {
+        flex: 1;
+    }
+
 
     .line-black {
         height: 2px;
@@ -132,19 +181,13 @@
         background-color: #d0e3ff;
     }
     </style>
-=======
->>>>>>> 5fada889801cce5c3402b8f1611247b197b2ad7a
 </head>
 
 <body class="index-page">
 
     <header id="header" class="header d-flex align-items-center fixed-top">
-<<<<<<< HEAD
         <div
             class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-=======
-        <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
->>>>>>> 5fada889801cce5c3402b8f1611247b197b2ad7a
 
             <a href="/" class="logo d-flex align-items-center me-auto me-xl-0">
                 <!-- Uncomment the line below if you also wish to use an image logo -->
@@ -177,68 +220,46 @@
             <nav id="navmenu" class="navmenu">
                 <ul>
                     <li><a href="/" class="active">หน้าหลัก</a></li>
-<<<<<<< HEAD
                     <li class="dropdown"><a href="#"><span>ข้อมูลโรงพยาบาล</span> <i
                                 class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
-                            <li class="dropdown"><a href="#"><span>โครงสร้างหน่วยงาน</span> <i
-                                        class="bi bi-chevron-down toggle-dropdown"></i></a>
-=======
-                    <li class="dropdown"><a href="#"><span>ข้อมูลโรงพยาบาล</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                        <ul>
-                            <li class="dropdown"><a href="#"><span>โครงสร้างหน่วยงาน</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
->>>>>>> 5fada889801cce5c3402b8f1611247b197b2ad7a
-                                <ul>
-                                    <li><a href="#">Deep Dropdown 1</a></li>
-                                    <li><a href="#">Deep Dropdown 2</a></li>
-                                    <li><a href="#">Deep Dropdown 3</a></li>
-                                    <li><a href="#">Deep Dropdown 4</a></li>
-                                    <li><a href="#">Deep Dropdown 5</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Dropdown 1</a></li>
-                            <li><a href="#">Dropdown 2</a></li>
-                            <li><a href="#">Dropdown 3</a></li>
-                            <li><a href="#">Dropdown 4</a></li>
+                            <li><a href="#">ประวัติของโรงพยาบาลพิชัย</a></li>
+                            <li><a href="#">วิสัยทัศน์/พันธกิจ</a></li>
+                            <li><a href="#">ข้อมูลองค์กร</a></li>
+                            <!-- <li><a href="#">Dropdown 4</a></li> -->
                         </ul>
                     </li>
-<<<<<<< HEAD
-                    <li class="dropdown"><a href="#"><span>หน่วยงาน</span> <i
+                    <li class="dropdown"><a href="#"><span>โครงสร้างหน่วยงาน</span> <i
                                 class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
-                            <li><a href="#">Dropdown 1</a></li>
-                            <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i
+                            <li><a href="#">กรรรมการบริหารโรงพยาบาลพิชัย</a></li>
+                            <li class="dropdown"><a href="#"><span>กลุ่มงานต่าง ๆ ภายในโรงพยาบาล</span> <i
                                         class="bi bi-chevron-down toggle-dropdown"></i></a>
-=======
-                    <li class="dropdown"><a href="#"><span>หน่วยงาน</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                        <ul>
-                            <li><a href="#">Dropdown 1</a></li>
-                            <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
->>>>>>> 5fada889801cce5c3402b8f1611247b197b2ad7a
                                 <ul>
-                                    <li><a href="#">Deep Dropdown 1</a></li>
-                                    <li><a href="#">Deep Dropdown 2</a></li>
+                                    <li><a href="#">กลุ่มงานการจัดการ</a></li>
+                                    <!-- <li><a href="#">Deep Dropdown 2</a></li>
                                     <li><a href="#">Deep Dropdown 3</a></li>
                                     <li><a href="#">Deep Dropdown 4</a></li>
-                                    <li><a href="#">Deep Dropdown 5</a></li>
+                                    <li><a href="#">Deep Dropdown 5</a></li> -->
                                 </ul>
                             </li>
-                            <li><a href="#">Dropdown 2</a></li>
-                            <li><a href="#">Dropdown 3</a></li>
-                            <li><a href="#">Dropdown 4</a></li>
                         </ul>
                     </li>
-<<<<<<< HEAD
                     <li class="dropdown"><a href="#"><span>เอกสาร / ข่าวสาร</span> <i
                                 class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
                             <li class="dropdown"><a href="#"><span>เอกสาร ITA</span> <i
                                         class="bi bi-chevron-down toggle-dropdown"></i></a>
-=======
-                    <li class="dropdown"><a href="#"><span>เอกสาร/ข่าวสาร</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                        <ul>
-                            <li class="dropdown"><a href="#"><span>เอกสาร ITA</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
->>>>>>> 5fada889801cce5c3402b8f1611247b197b2ad7a
+                                <ul>
+                                    <li><a href="/ita64">ปี 2564</a></li>
+                                    <li><a href="/ita65">ปี 2565</a></li>
+                                    <li><a href="/ita66">ปี 2566</a></li>
+                                    <li><a href="/ita67">ปี 2567</a></li>
+                                    <li><a href="/ita68">ปี 2568</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a href="#"><span>แบบฟอร์มต่าง ๆ</span> <i
+                                        class="bi bi-chevron-down toggle-dropdown"></i></a>
                                 <ul>
                                     <li><a href="/ita64">ปี 2564</a></li>
                                     <li><a href="/ita65">ปี 2565</a></li>
@@ -253,45 +274,12 @@
                             <li><a href="#">Dropdown 4</a></li> -->
                         </ul>
                     </li>
-<<<<<<< HEAD
-                    <li class="dropdown"><a href="#"><span>แบบฟอร์มต่าง ๆ</span> <i
-                                class="bi bi-chevron-down toggle-dropdown"></i></a>
-                        <ul>
-                            <li><a href="#">Dropdown 1</a></li>
-                            <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i
-                                        class="bi bi-chevron-down toggle-dropdown"></i></a>
-=======
-                    <li class="dropdown"><a href="#"><span>แบบฟอร์มต่าง ๆ</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                        <ul>
-                            <li><a href="#">Dropdown 1</a></li>
-                            <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
->>>>>>> 5fada889801cce5c3402b8f1611247b197b2ad7a
-                                <ul>
-                                    <li><a href="#">Deep Dropdown 1</a></li>
-                                    <li><a href="#">Deep Dropdown 2</a></li>
-                                    <li><a href="#">Deep Dropdown 3</a></li>
-                                    <li><a href="#">Deep Dropdown 4</a></li>
-                                    <li><a href="#">Deep Dropdown 5</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Dropdown 2</a></li>
-                            <li><a href="#">Dropdown 3</a></li>
-                            <li><a href="#">Dropdown 4</a></li>
-                        </ul>
-                    </li>
-<<<<<<< HEAD
                     <li class="dropdown"><a href="#"><span>กิจกรรม</span> <i
                                 class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
                             <li><a href="#">ปฏิทินกิจกรรม</a></li>
                             <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i
                                         class="bi bi-chevron-down toggle-dropdown"></i></a>
-=======
-                    <li class="dropdown"><a href="#"><span>กิจกรรม</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                        <ul>
-                            <li><a href="#">ปฏิทินกิจกรรม</a></li>
-                            <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
->>>>>>> 5fada889801cce5c3402b8f1611247b197b2ad7a
                                 <ul>
                                     <li><a href="#">Deep Dropdown 1</a></li>
                                     <li><a href="#">Deep Dropdown 2</a></li>
@@ -306,11 +294,30 @@
                         </ul>
                     </li>
                     <li><a href="/contact">ติดต่อเรา</a></li>
+                    <li class="dropdown"><a href="#"><span>เจ้าหน้าที่</span> <i
+                                class="bi bi-chevron-down toggle-dropdown"></i></a>
+                        <ul>
+                            <li><a href="#">เข้าสู่ระบบ</a></li>
+                            <!-- <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i
+                                        class="bi bi-chevron-down toggle-dropdown"></i></a>
+                                <ul>
+                                    <li><a href="#">Deep Dropdown 1</a></li>
+                                    <li><a href="#">Deep Dropdown 2</a></li>
+                                    <li><a href="#">Deep Dropdown 3</a></li>
+                                    <li><a href="#">Deep Dropdown 4</a></li>
+                                    <li><a href="#">Deep Dropdown 5</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Dropdown 2</a></li>
+                            <li><a href="#">Dropdown 3</a></li>
+                            <li><a href="#">Dropdown 4</a></li> -->
+                        </ul>
+                    </li>
                 </ul>
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
             </nav>
+            <a class="btn-getstarted" href="tel:+6655-832100"><i class="bi bi-telephone-fill"></i> โทรด่วน</a>
 
-            <a class="btn-getstarted" href="">เข้าสู่ระบบ</a>
 
         </div>
     </header>

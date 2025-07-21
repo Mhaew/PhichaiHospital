@@ -16,9 +16,11 @@
                         <div class="row">
                             <div class="col-lg-7 col-md-10" data-aos="fade-right" data-aos-delay="100">
                                 <div class="content-box">
-                                    <span class="badge-accent" data-aos="fade-up" data-aos-delay="150">Phichai Hospital</span>
+                                    <span class="badge-accent" data-aos="fade-up" data-aos-delay="150">Phichai
+                                        Hospital</span>
                                     <h1 data-aos="fade-up" data-aos-delay="200">โรงพยาบาลพิชัย</h1>
-                                    <p data-aos="fade-up" data-aos-delay="250">มีหลักธรรมาภิบาล บริการด้วยใจ ให้ชุมชนเชื่อมั่น สรรค์สร้างพัฒนา</p>
+                                    <p data-aos="fade-up" data-aos-delay="250">มีหลักธรรมาภิบาล บริการด้วยใจ
+                                        ให้ชุมชนเชื่อมั่น สรรค์สร้างพัฒนา</p>
 
                                     <!-- <div class="cta-group" data-aos="fade-up" data-aos-delay="300">
                                         <a href="appointment.html" class="btn btn-primary">Book Appointment</a>
@@ -125,7 +127,7 @@
 
         <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-            <div class="row gy-5 align-items-center">
+            <!-- <div class="row gy-5 align-items-center">
                 <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
                     <div class="about-image">
                         <img src="assets/img/gallery/p2.jpg" alt="Modern Healthcare Facility" class="img-fluid rounded-3 mb-4">
@@ -173,9 +175,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
-            <div class="row mt-5 pt-4 certifications-row" data-aos="fade-up" data-aos-delay="600">
+            <!-- <div class="row mt-5 pt-4 certifications-row" data-aos="fade-up" data-aos-delay="600">
                 <div class="col-12 text-center mb-4">
                     <h4 class="certification-title">Our Accreditations</h4>
                 </div>
@@ -195,7 +197,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
         </div>
 
@@ -217,18 +219,25 @@
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="department-card">
                         <div class="department-image">
-                            <img src="assets/img/health/fb1.jpg" alt="Cardiology Department" class="img-fluid">
+                            <img src="assets/img/health/fb1.jpg" alt="Cardiology Department"
+                                style="width: 100%; height: 250px; object-fit: cover; object-position: top;">
                         </div>
-                        <div class="department-content">
-                            <div class="department-icon">
+<!-- 
+                        <div class="department-image">
+                            <img src="assets/img/health/fb1.jpg" alt="Cardiology Department" class="img-fluid">
+                        </div> -->
+                        <div class="department-content" >
+                            <!-- <div class="department-icon">
                                 <i class="fas fa-heartbeat"></i>
-                            </div>
-                            <h3>โรงพยาบาลพิชัย ขอประชาสัมพันธ์เชิญชวนบุคลากร รพ.พิชัย เข้าร่วมอบรมการผลิตสื่อ ได้รับเกียรติ จากวิทยากร ม.ราชภัฎอุตรดิตถ์ </h3>
+                            </div> -->
+                            <h3>โรงพยาบาลพิชัย ขอประชาสัมพันธ์เชิญชวนบุคลากร รพ.พิชัย เข้าร่วมอบรมการผลิตสื่อ
+                                ได้รับเกียรติ จากวิทยากร ม.ราชภัฎอุตรดิตถ์ </h3>
                             <p style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; width: 300px;">
-                                🏥 โรงพยาบาลพิชัย ขอประชาสัมพันธ์เชิญชวนบุคลากร รพ.พิชัย เข้าร่วมอบรมการผลิตสื่อ ได้รับเกียรติ จากวิทยากร ม.ราชภัฎอุตรดิตถ์ ...
+                                🏥 โรงพยาบาลพิชัย ขอประชาสัมพันธ์เชิญชวนบุคลากร รพ.พิชัย เข้าร่วมอบรมการผลิตสื่อ
+                                ได้รับเกียรติ จากวิทยากร ม.ราชภัฎอุตรดิตถ์ ...
                             </p>
                             <a href="department-details.html" class="btn-learn-more">
-                                <span>Learn More</span>
+                                <span>ดูเพิ่มเติม</span>
                                 <i class="fas fa-arrow-right"></i>
                             </a>
                         </div>
@@ -245,7 +254,8 @@
                                 <i class="fas fa-brain"></i>
                             </div>
                             <h3>Neurology</h3>
-                            <p>Expert neurological care specializing in brain and nervous system disorders, providing cutting-edge treatments and compassionate support for neurological conditions.</p>
+                            <p>Expert neurological care specializing in brain and nervous system disorders, providing
+                                cutting-edge treatments and compassionate support for neurological conditions.</p>
                             <a href="department-details.html" class="btn-learn-more">
                                 <span>Learn More</span>
                                 <i class="fas fa-arrow-right"></i>
@@ -257,14 +267,16 @@
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                     <div class="department-card">
                         <div class="department-image">
-                            <img src="assets/img/health/orthopedics-4.webp" alt="Orthopedics Department" class="img-fluid">
+                            <img src="assets/img/health/orthopedics-4.webp" alt="Orthopedics Department"
+                                class="img-fluid">
                         </div>
                         <div class="department-content">
                             <div class="department-icon">
                                 <i class="fas fa-bone"></i>
                             </div>
                             <h3>Orthopedics</h3>
-                            <p>Advanced musculoskeletal care focusing on bones, joints, and muscles with innovative surgical and non-surgical treatment approaches for mobility restoration.</p>
+                            <p>Advanced musculoskeletal care focusing on bones, joints, and muscles with innovative
+                                surgical and non-surgical treatment approaches for mobility restoration.</p>
                             <a href="department-details.html" class="btn-learn-more">
                                 <span>Learn More</span>
                                 <i class="fas fa-arrow-right"></i>
@@ -272,7 +284,8 @@
                         </div>
                     </div>
                 </div><!-- End Department Card -->
-                <div class="call-to-action align-items-center justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
+                <div class="call-to-action align-items-center justify-content-center text-center" data-aos="fade-up"
+                    data-aos-delay="100">
                     <div class="cta-buttons " data-aos="fade-up" data-aos-delay="300">
                         <a href="#" class="btn btn-primary">ดูเพิ่มเติม</a>
                     </div>
@@ -297,7 +310,9 @@
                                     </div>
                                     <div class="service-content">
                                         <h3>Cardiology Excellence</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation.</p>
                                         <ul class="service-features">
                                             <li><i class="fas fa-check-circle"></i>Advanced Heart Surgery</li>
                                             <li><i class="fas fa-check-circle"></i>24/7 Emergency Care</li>
@@ -318,7 +333,9 @@
                                     </div>
                                     <div class="service-content">
                                         <h3>Neurology &amp; Brain Health</h3>
-                                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+                                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                            voluptate velit esse.</p>
                                         <ul class="service-features">
                                             <li><i class="fas fa-check-circle"></i>Brain Imaging &amp; Diagnostics</li>
                                             <li><i class="fas fa-check-circle"></i>Stroke Treatment Center</li>
@@ -339,7 +356,9 @@
                                     </div>
                                     <div class="service-content">
                                         <h3>Orthopedic Surgery</h3>
-                                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error.</p>
+                                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                            deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste
+                                            natus error.</p>
                                         <ul class="service-features">
                                             <li><i class="fas fa-check-circle"></i>Joint Replacement Surgery</li>
                                             <li><i class="fas fa-check-circle"></i>Sports Medicine</li>
@@ -360,7 +379,9 @@
                                     </div>
                                     <div class="service-content">
                                         <h3>Emergency &amp; Trauma Care</h3>
-                                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+                                            sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
+                                            nesciunt.</p>
                                         <ul class="service-features">
                                             <li><i class="fas fa-check-circle"></i>24/7 Emergency Department</li>
                                             <li><i class="fas fa-check-circle"></i>Level 1 Trauma Center</li>
@@ -397,7 +418,8 @@
                                     <form class="search-form" action="forms/doctor-search.php" method="get">
                                         <div class="row g-3">
                                             <div class="col-md-4">
-                                                <input type="text" class="form-control" name="doctor_name" placeholder="Doctor name or keyword">
+                                                <input type="text" class="form-control" name="doctor_name"
+                                                    placeholder="Doctor name or keyword">
                                             </div>
                                             <div class="col-md-4">
                                                 <select class="form-select" name="specialty" id="specialty-select">
@@ -427,7 +449,8 @@
                             <div class="col-lg-4 col-md-6 mb-4">
                                 <div class="doctor-card">
                                     <div class="doctor-image">
-                                        <img src="assets/img/health/staff-3.webp" alt="Dr. Sarah Mitchell" class="img-fluid">
+                                        <img src="assets/img/health/staff-3.webp" alt="Dr. Sarah Mitchell"
+                                            class="img-fluid">
                                         <div class="availability-badge online">Available</div>
                                     </div>
                                     <div class="doctor-info">
@@ -453,7 +476,8 @@
                             <div class="col-lg-4 col-md-6 mb-4">
                                 <div class="doctor-card">
                                     <div class="doctor-image">
-                                        <img src="assets/img/health/staff-7.webp" alt="Dr. Michael Rodriguez" class="img-fluid">
+                                        <img src="assets/img/health/staff-7.webp" alt="Dr. Michael Rodriguez"
+                                            class="img-fluid">
                                         <div class="availability-badge busy">In Surgery</div>
                                     </div>
                                     <div class="doctor-info">
@@ -479,7 +503,8 @@
                             <div class="col-lg-4 col-md-6 mb-4">
                                 <div class="doctor-card">
                                     <div class="doctor-image">
-                                        <img src="assets/img/health/staff-1.webp" alt="Dr. Emily Chen" class="img-fluid">
+                                        <img src="assets/img/health/staff-1.webp" alt="Dr. Emily Chen"
+                                            class="img-fluid">
                                         <div class="availability-badge online">Available</div>
                                     </div>
                                     <div class="doctor-info">
@@ -505,7 +530,8 @@
                             <div class="col-lg-4 col-md-6 mb-4">
                                 <div class="doctor-card">
                                     <div class="doctor-image">
-                                        <img src="assets/img/health/staff-9.webp" alt="Dr. James Thompson" class="img-fluid">
+                                        <img src="assets/img/health/staff-9.webp" alt="Dr. James Thompson"
+                                            class="img-fluid">
                                         <div class="availability-badge offline">Next: Tomorrow 9AM</div>
                                     </div>
                                     <div class="doctor-info">
@@ -531,7 +557,8 @@
                             <div class="col-lg-4 col-md-6 mb-4">
                                 <div class="doctor-card">
                                     <div class="doctor-image">
-                                        <img src="assets/img/health/staff-5.webp" alt="Dr. Lisa Anderson" class="img-fluid">
+                                        <img src="assets/img/health/staff-5.webp" alt="Dr. Lisa Anderson"
+                                            class="img-fluid">
                                         <div class="availability-badge online">Available</div>
                                     </div>
                                     <div class="doctor-info">
@@ -557,7 +584,8 @@
                             <div class="col-lg-4 col-md-6 mb-4">
                                 <div class="doctor-card">
                                     <div class="doctor-image">
-                                        <img src="assets/img/health/staff-12.webp" alt="Dr. Robert Kim" class="img-fluid">
+                                        <img src="assets/img/health/staff-12.webp" alt="Dr. Robert Kim"
+                                            class="img-fluid">
                                         <div class="availability-badge online">Available</div>
                                     </div>
                                     <div class="doctor-info">
@@ -594,7 +622,9 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8 text-center">
                                 <h2 data-aos="fade-up" data-aos-delay="200">Your Health is Our Priority</h2>
-                                <p data-aos="fade-up" data-aos-delay="250">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                                <p data-aos="fade-up" data-aos-delay="250">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
 
                                 <div class="cta-buttons" data-aos="fade-up" data-aos-delay="300">
                                     <a href="appointment.html" class="btn-primary">Book Appointment</a>
@@ -611,7 +641,8 @@
                                         <i class="bi bi-heart-pulse"></i>
                                     </div>
                                     <h5>24/7 Emergency Care</h5>
-                                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                        aliquip ex ea commodo.</p>
                                     <a href="#" class="feature-link">
                                         <span>Learn More</span>
                                         <i class="bi bi-arrow-right"></i>
@@ -625,7 +656,8 @@
                                         <i class="bi bi-calendar-check"></i>
                                     </div>
                                     <h5>Easy Online Booking</h5>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                        fugiat nulla pariatur.</p>
                                     <a href="#" class="feature-link">
                                         <span>Book Now</span>
                                         <i class="bi bi-arrow-right"></i>
@@ -639,7 +671,8 @@
                                         <i class="bi bi-people"></i>
                                     </div>
                                     <h5>Expert Medical Team</h5>
-                                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</p>
+                                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt mollit anim.</p>
                                     <a href="#" class="feature-link">
                                         <span>Meet Our Doctors</span>
                                         <i class="bi bi-arrow-right"></i>
@@ -695,7 +728,8 @@
                                     </div>
                                     <div class="alert-content">
                                         <h3>Medical Emergency?</h3>
-                                        <p>If you are experiencing a life-threatening emergency, call 911 immediately or go to your nearest emergency room.</p>
+                                        <p>If you are experiencing a life-threatening emergency, call 911 immediately or
+                                            go to your nearest emergency room.</p>
                                     </div>
                                     <div class="alert-action">
                                         <a href="tel:911" class="btn btn-emergency">
@@ -833,10 +867,12 @@
                                     <div class="row">
                                         <div class="col-md-6">
                                             <ul class="emergency-list">
-                                                <li><i class="bi bi-check-circle"></i> Chest pain or difficulty breathing</li>
+                                                <li><i class="bi bi-check-circle"></i> Chest pain or difficulty
+                                                    breathing</li>
                                                 <li><i class="bi bi-check-circle"></i> Severe allergic reactions</li>
                                                 <li><i class="bi bi-check-circle"></i> Major trauma or injuries</li>
-                                                <li><i class="bi bi-check-circle"></i> Signs of stroke or heart attack</li>
+                                                <li><i class="bi bi-check-circle"></i> Signs of stroke or heart attack
+                                                </li>
                                             </ul>
                                         </div>
                                         <div class="col-md-6">

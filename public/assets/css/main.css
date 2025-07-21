@@ -5481,7 +5481,7 @@ section,
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
+  text-emphasis-color: transparent;
 }
 
 .contact .form-container p {
@@ -6218,11 +6218,7 @@ section,
   /* Add your styles here */
 }
 
-<<<<<<< HEAD
 /* .calendar {
-=======
-.calendar {
->>>>>>> 5fada889801cce5c3402b8f1611247b197b2ad7a
   background: white;
   padding: 10px;
   border-radius: 12px;
@@ -6248,11 +6244,7 @@ section,
   color: #000;
   font-weight: bold;
   border-radius: 4px;
-<<<<<<< HEAD
 } */
-=======
-}
->>>>>>> 5fada889801cce5c3402b8f1611247b197b2ad7a
 
 /* คลิปโปรโมท */
 .floating-video {
@@ -6391,7 +6383,6 @@ section,
   display: block;
   animation: slideInRight 0.4s ease-out forwards;
 } 
-<<<<<<< HEAD
 
 
 /* พื้นหลังของ Section */
@@ -6513,5 +6504,3 @@ body {
     font-size: 13px;
     margin-right: 4px;
 }
-=======
->>>>>>> 5fada889801cce5c3402b8f1611247b197b2ad7a

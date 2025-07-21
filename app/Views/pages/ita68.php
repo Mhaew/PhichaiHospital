@@ -1,23 +1,16 @@
 <?= $this->extend('templates/index') ?>
 <?= $this->section('content') ?>
 
-<<<<<<< HEAD
 
 
 <main class="main">
 
     <!-- Page Title -->
     <div class="page-title" data-aos="fade-up" data-aos-delay="100">
-=======
-<main class="main">
-
-    <!-- Page Title -->
-    <div class="page-title"  data-aos="fade-up" data-aos-delay="100">
->>>>>>> 5fada889801cce5c3402b8f1611247b197b2ad7a
         <div class="breadcrumbs">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#"><i class="bi bi-house"></i> Home</a></li>
+                    <li class="breadcrumb-item"><a href="/"><i class="bi bi-house"></i> Home</a></li>
                     <!-- <li class="breadcrumb-item"><a href="#">Category</a></li> -->
                     <li class="breadcrumb-item active current">ITA ปี 2568</li>
                 </ol>
@@ -34,13 +27,12 @@
         </div>
     </div><!-- End Page Title -->
 
-<<<<<<< HEAD
     <div id="sidebar-banner">
         <button onclick="location.href='#service-details-2'">MOIT1</button>
         <button onclick="location.href='#service-details-3'">MOIT2</button>
         <button onclick="location.href='#service-details-4'">MOIT3</button>
         <button onclick="location.href='#service-details-5'">MOIT4</button>
-        <button onclick="location.href='#service-details-6'">MOIT5</button>
+        <!-- <button onclick="location.href='#service-details-6'">MOIT5</button>
         <button onclick="location.href='#service-details-7'">MOIT6</button>
         <button onclick="location.href='#service-details-8'">MOIT7</button>
         <button onclick="location.href='#service-details-9'">MOIT8</button>
@@ -57,7 +49,7 @@
         <button onclick="location.href='#service-details-20'">MOIT19</button>
         <button onclick="location.href='#service-details-21'">MOIT20</button>
         <button onclick="location.href='#service-details-22'">MOIT21</button>
-        <button onclick="location.href='#service-details-23'">MOIT22</button>
+        <button onclick="location.href='#service-details-23'">MOIT22</button> -->
     </div>
 
     <!-- <button onclick="location.href='#service-details-2'">MOIT1</button>
@@ -65,8 +57,6 @@
     <button onclick="location.href='#service-details-4'">MOIT3</button>
     <button onclick="location.href='#service-details-5'">MOIT4</button> -->
 
-=======
->>>>>>> 5fada889801cce5c3402b8f1611247b197b2ad7a
     <!-- Doctors Section -->
     <section id="doctors" class="doctors section">
 
@@ -98,7 +88,6 @@
                     </div>
                 </div><!-- End Doctor Card -->
 
-<<<<<<< HEAD
                 <!-- <section id="call-to-action" class="call-to-action section">
 
                     <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -139,36 +128,56 @@
                                     qui officia deserunt mollit anim id est laborum.</p> -->
 
                                 <div class="service-features">
-                                    <h4>1. คำสั่ง / ประกาศสำหรับกรอบการควบคุม</h4>
+                                    <h4><span>1.</span> คำสั่ง / ประกาศสำหรับกรอบการควบคุม</h4>
                                     <ul>
-                                        <li> <a href="<?= base_url('assets/document/pdf/moit1-1.1-68.pdf') ?>"
+                                        <li>
+                                            <a href="<?= base_url('assets/document/pdf/moit1-1.1-68.pdf') ?>"
                                                 target="_blank">
-                                                <img src="assets/img/clients/pdf.webp" alt="PDF">1.1.
-                                                มีบันทึกข้อความที่ผู้บริหารในคำสั่ง /
-                                                ประกาศและขออนุญาตเผยแพร่สิ่งพิมพ์ของวารสาร
-                                        </li></a>
-                                        <li> <a href="<?= base_url('assets/document/pdf/moit1-1.1-68.pdf') ?>"
+                                                <img src="assets/img/clients/pdf.webp" alt="PDF">
+                                                <span class="doc-code">1.1.</span>
+                                                <span class="doc-text">มีบันทึกข้อความที่ผู้บริหารในคำสั่ง /
+                                                    ประกาศและขออนุญาตเผยแพร่สิ่งพิมพ์ของวารสาร</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="<?= base_url('assets/document/pdf/moit1-1.1-68.pdf') ?>"
                                                 target="_blank">
-                                                <img src="assets/img/clients/pdf.webp" alt="PDF">1.2.
-                                                มีคำสั่ง /
-                                                ประกาศโดยผู้บริหารและผู้ดูแลข้อ 1. (รายละเอียดข้อมูลประกอบข้อคำถาม)
-                                            </a></li>
-                                        <li> <a href="<?= base_url('assets/document/pdf/moit1-1.1-68.pdf') ?>"
-                                                target="_blank"><img src="assets/img/clients/pdf.webp" alt="PDF">1.3.
-                                                มีกรอบคำแนะนำการเผยแพร่ข้อมูลต่อสาธารณะเว็บไซต์ผ่านการตรวจสอบรายละเอียดรายละเอียดในข้อมูลประกอบข้อคำถาม
-                                                2. (ข้อ 2.1 ข้อมูลติดตาม / ประเภทที่ผู้ตรวจสอบต้องเผยแพร่ต่อสาธารณะ
-                                                และข้อ
-                                                2.2
-                                                มีข้อสังเกตว่าทราบวิธีการระบุเวลาดำเนินการดำเนินการรับผิดชอบในการเผยแพร่ข้อมูลต่อสาธารณะในการเข้าชม)
-                                            </a></li>
-                                        <a href="<?= base_url('assets/document/pdf/moit1-1-68.pdf') ?>" target="_blank">
-                                            <li><img src="assets/img/clients/pdf.webp" alt="PDF">1.4.
-                                                การเผยแพร่ข้อมูลสาธารณะต่อเว็บไซต์ผ่านการตรวจสอบ
-                                        </a></li>
+                                                <img src="assets/img/clients/pdf.webp" alt="PDF">
+                                                <span class="doc-code">1.2.</span>
+                                                <span class="doc-text">มีคำสั่ง / ประกาศโดยผู้บริหารและผู้ดูแลข้อ 1.
+                                                    (รายละเอียดข้อมูลประกอบข้อคำถาม)</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="<?= base_url('assets/document/pdf/moit1-1.1-68.pdf') ?>"
+                                                target="_blank">
+                                                <img src="assets/img/clients/pdf.webp" alt="PDF">
+                                                <span class="doc-code">1.3.</span>
+                                                <span class="doc-text">
+                                                    มีกรอบคำแนะนำการเผยแพร่ข้อมูลต่อสาธารณะเว็บไซต์ผ่านการตรวจสอบรายละเอียดในข้อมูล
+                                                    ประกอบด้วยข้อคำถาม
+                                                    2 ข้อ (ข้อ 1. ข้อมูลติดตาม /
+                                                    ประเภทที่ผู้ตรวจสอบต้องเผยแพร่ต่อสาธารณะ
+                                                    และข้อ
+                                                    2.
+                                                    มีข้อสังเกตว่าทราบวิธีการระบุเวลาดำเนินการดำเนินการรับผิดชอบในการเผยแพร่ข้อมูลต่อสาธารณะในการเข้าชม)
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="<?= base_url('assets/document/pdf/moit1-1-68.pdf') ?>"
+                                                target="_blank">
+                                                <img src="assets/img/clients/pdf.webp" alt="PDF">
+                                                <span class="doc-code">1.4.</span>
+                                                <span
+                                                    class="doc-text">การเผยแพร่ข้อมูลสาธารณะต่อเว็บไซต์ผ่านการตรวจสอบ</span>
+                                            </a>
+                                        </li>
                                     </ul>
                                 </div>
+
                                 <div class="service-features">
-                                    <h4>2.
+                                    <h4><span>2.</span>
                                         รายงานผลการอย่างต่อเนื่องติดตามการเผยแพร่ข้อมูลต่อสาธารณะผ่านเว็บไซต์ของการตรวจสอบในประสิทธิภาพ
                                         (ปีงบประมาณ พ.ศ. 2567)</h4>
                                     <ul>
@@ -180,7 +189,7 @@
                                         </li>
                                         <li> <a href="<?= base_url('assets/document/pdf/moit1-2-68.pdf') ?>"
                                                 target="_blank">
-                                                <img src="assets/img/clients/pdf.webp" alt="PDF" width="30">2.2.
+                                                <img src="assets/img/clients/pdf.webp" alt="PDF" width="30"><span>2.2.</span>
                                                 มีรายงานผลการเผยแพร่การเผยแพร่ข้อมูลต่อสาธารณะผ่านเว็บไซต์ของทุกปี
                                                 (ปีงบประมาณ พ.ศ. 2567)
                                             </a>
@@ -199,7 +208,6 @@
                 </section>
 
                 <section id="service-details-3" class="service-details-2 section">
-
                     <div class="container" data-aos="fade-up" data-aos-delay="100">
                         <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
                             <div class="service-content">
@@ -220,7 +228,7 @@
                                     <h4>1. ข้อมูลพื้นฐานที่มีอยู่ในปัจจุบัน</h4>
                                     <ul>
                                         <li><a href="<?= base_url('assets/document/pdf/moit2-1.1-68.pdf') ?>"
-                                                target="_blank"><img src="assets/img/clients/pdf.webp" alt="PDF">1.1.
+                                                target="_blank"><img src="assets/img/clients/pdf.webp" alt="PDF"><span>1.1.</span>
                                                 การแสดงผู้บริหารรายนามของผู้บริหารของหน่วยงานกำกับดูแล (1) ชื่อ (2)
                                                 ชื่อ-
                                                 นามสกุล (3) ตำแหน่งและ (4) ตรวจสอบ (ต้องมีทั้ง 4 รายการ)</a></li>
@@ -238,7 +246,7 @@
                                                 target="_blank"><img src="assets/img/clients/pdf.webp" alt="PDF">1.5.
                                                 กฎหมายเพดานหรือความงามของห้องโดยสาร<a></a></li>
                                         <li><a href="<?= base_url('assets/document/pdf/moit2-1.6-68.pdf') ?>"
-                                                target="_blank"><img src="assets/img/clients/pdf.webp" alt="PDF">1.6.
+                                                target="_blank"><img src="assets/img/clients/pdf.webp" alt="PDF">2.2.
                                                 ข่าวประชาสัมพันธ์
                                                 การเผยแพร่ข้อมูลข่าวสารอย่างเป็นทางการตามหน้าที่และอำนาจ
                                                 และองค์กรของการปฏิบัติตามข้อมูลข่าวสารอย่างสม่ำเสมอในงบประมาณ พ.ศ.
@@ -598,14 +606,6 @@
             </div>
         </div>
     </section><!-- /Doctors Section -->
-=======
-            </div>
-
-        </div>
-
-    </section><!-- /Doctors Section -->
-
->>>>>>> 5fada889801cce5c3402b8f1611247b197b2ad7a
 </main>
 
 

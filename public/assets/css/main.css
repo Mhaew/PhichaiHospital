@@ -4001,7 +4001,7 @@ section,
 }
 
 .service-details-2 .service-content .service-features {
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 
 .service-details-2 .service-content .service-features h4 {
@@ -4043,7 +4043,7 @@ section,
 .service-details-2 .service-content .service-actions .btn-primary {
   background: var(--accent-color);
   color: var(--contrast-color);
-  padding: 12px 28px;
+  padding: 12px 12px;
   border-radius: 30px;
   text-decoration: none;
   font-weight: 500;
@@ -4058,7 +4058,7 @@ section,
 .service-details-2 .service-content .service-actions .btn-secondary {
   background: transparent;
   color: var(--heading-color);
-  padding: 12px 28px;
+  padding: 12px 12px;
   border: 2px solid color-mix(in srgb, var(--default-color), transparent 80%);
   border-radius: 30px;
   text-decoration: none;
@@ -4073,7 +4073,7 @@ section,
 
 .service-details-2 .service-card {
   background: var(--surface-color);
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 15px;
   text-align: center;
   height: 100%;

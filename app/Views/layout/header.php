@@ -45,7 +45,7 @@
   ======================================================== -->
     <style>
         .tab-buttons {
-            margin-top: 20px;
+            margin-top: 10px;
             display: flex;
             gap: 10px;
         }
@@ -53,10 +53,10 @@
         .tab-button {
             background-color: #f0e4c3;
             border: none;
-            padding: 10px 20px;
+            padding: 10px 10px;
             cursor: pointer;
             font-weight: bold;
-            border-radius: 5px;
+            border-radius: 20px;
             transition: background-color 0.3s;
         }
 
@@ -67,10 +67,10 @@
 
         .tab-content {
             display: none;
-            margin-top: 20px;
+            margin-top: 10px;
             padding: 15px;
             background: #f9f9f9;
-            border-radius: 5px;
+            border-radius: 20px;
             border: 1px solid #ddd;
         }
 
@@ -101,8 +101,8 @@
             background: #fff;
             width: 70%;
             margin: auto;
-            padding: 50px 50px 80px;
-            border-radius: 5px;
+            padding: 10px 10px 30px;
+            border-radius: 20px;
             box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
         }
 
@@ -165,7 +165,7 @@
         }
 
         .tabs .content {
-            margin-top: 30px;
+            margin-top: 20px;
         }
 
         /* Checked state styles */
@@ -235,36 +235,6 @@
                 color: #0d824b;
                 border-bottom: 3px solid #0d824b;
                 margin-bottom: 10px;
-            }
-        }
-    </style>
-
-    <style>
-        .row-2col {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0;
-            margin: 0 -15px;
-        }
-
-        .column {
-            flex: 1 1 50%;
-            padding: 0 10px;
-            box-sizing: border-box;
-        }
-
-        /* เส้นคั่นกลาง */
-        .column:first-child {
-            border-right: 1px solid #ccc;
-        }
-
-        /* รองรับหน้าจอแคบ */
-        @media (max-width: 768px) {
-            .column {
-                flex: 1 1 100%;
-                border-right: none;
-                border-bottom: 1px solid #ccc;
-                margin-bottom: 2rem;
             }
         }
     </style>
@@ -357,15 +327,12 @@
             flex: 1;
         }
 
+
         .line-black {
             height: 2px;
             background-color: black;
-            width: 10vw;
-            /* viewport width */
+            width: 100%;
             margin: 20px 0;
-            position: relative;
-            left: -15vw;
-            /* แก้ให้เริ่มจากซ้ายสุด */
         }
 
         .item-break {
@@ -506,7 +473,7 @@
                 <!-- <svg class="my-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="bgCarrier" stroke-width="0"></g>
                     <g id="tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                    < id="iconCarrier">
+                    <g id="iconCarrier">
                         <path d="M22 22L2 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
                         <path d="M17 22V6C17 4.11438 17 3.17157 16.4142 2.58579C15.8284 2 14.8856 2 13 2H11C9.11438 2 8.17157 2 7.58579 2.58579C7 3.17157 7 4.11438 7 6V22" stroke="currentColor" stroke-width="1.5"></path>
                         <path opacity="0.5" d="M21 22V8.5C21 7.09554 21 6.39331 20.6629 5.88886C20.517 5.67048 20.3295 5.48298 20.1111 5.33706C19.6067 5 18.9045 5 17.5 5" stroke="currentColor" stroke-width="1.5"></path>
@@ -522,7 +489,7 @@
                         <path opacity="0.5" d="M10 15H14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
                         <path d="M12 9V5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                         <path d="M14 7L10 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                    </
+                    </g>
                 </svg> -->
 
                 <h1 class="sitename">โรงพยาบาลพิชัย</h1>
@@ -531,10 +498,10 @@
             <nav id="navmenu" class="navmenu">
                 <ul>
                     <li><a href="/" class="active">หน้าหลัก</a></li>
-                    <li class="dropdown"><a href="#"><span>ข้อมูลโรงพยาบาล</span> <i
+                    <li class="dropdown"><a href="#" ><span>ข้อมูลโรงพยาบาล</span> <i
                                 class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
-                            <li><a href="#">ประวัติของโรงพยาบาลพิชัย</a></li>
+                            <li><a href="/history " >ประวัติของโรงพยาบาลพิชัย</a></li>
                             <li><a href="#">วิสัยทัศน์/พันธกิจ</a></li>
                             <li><a href="#">ข้อมูลองค์กร</a></li>
                             <!-- <li><a href="#">Dropdown 4</a></li> -->

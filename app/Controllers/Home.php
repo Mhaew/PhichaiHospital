@@ -24,4 +24,19 @@ class Home extends BaseController
             'title' => 'ITA 2568'
         ]);
     }
+
+        public function news(): string
+    {
+        return view('pages/news', [
+            'title' => 'ข่าวประชาสัมพัน | News'
+        ]);
+    }
+
+            public function history(): string
+    {
+        return view('pages/history', [
+            'title' => 'ประวัติโรงพยาบาลพิชัย | History'
+        ]);
+    }
+
 }

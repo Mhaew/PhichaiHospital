@@ -20,3 +20,6 @@ $routes->get('pdf', 'Pdf::pdf');
 
 //News
 $routes->get('/news', 'Home::news');
+
+//History
+$routes->get('/history', 'Home::history');

@@ -498,10 +498,10 @@
             <nav id="navmenu" class="navmenu">
                 <ul>
                     <li><a href="/" class="active">หน้าหลัก</a></li>
-                    <li class="dropdown"><a href="#"><span>ข้อมูลโรงพยาบาล</span> <i
+                    <li class="dropdown"><a href="#" ><span>ข้อมูลโรงพยาบาล</span> <i
                                 class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
-                            <li><a href="#">ประวัติของโรงพยาบาลพิชัย</a></li>
+                            <li><a href="/history " >ประวัติของโรงพยาบาลพิชัย</a></li>
                             <li><a href="#">วิสัยทัศน์/พันธกิจ</a></li>
                             <li><a href="#">ข้อมูลองค์กร</a></li>
                             <!-- <li><a href="#">Dropdown 4</a></li> -->

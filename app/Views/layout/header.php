@@ -350,7 +350,7 @@
         #sidebar-banner {
             position: fixed;
             top: 50%;
-            left: 0;
+            right: 0;
             transform: translateY(-50%);
             background: #0d824b;
             padding: 10px;
@@ -459,6 +459,24 @@
             }
         }
     </style>
+
+    <style>
+        #sidebar-banner {
+            max-height: 60vh;
+            /* ไม่เกินความสูงของหน้าจอ */
+            overflow-y: auto;
+            /* มี scrollbar ด้านข้าง */
+            padding: 5px;
+        }
+
+        #sidebar-banner button {
+            display: block;
+            width: 90%;
+            margin: 3px 0;
+        }
+    </style>
+
+    
 </head>
 
 <body class="index-page">
@@ -497,12 +515,12 @@
 
             <nav id="navmenu" class="navmenu">
                 <ul>
-                    <li><a href="/" class="active">หน้าหลัก</a></li>
-                    <li class="dropdown"><a href="#" ><span>ข้อมูลโรงพยาบาล</span> <i
+                    <li><a href="/" class="<?= (uri_string() == '') ? 'active' : '' ?>">หน้าหลัก</a></li>
+                    <li class="dropdown"><a href="#"><span>ข้อมูลโรงพยาบาล</span> <i
                                 class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
-                            <li><a href="/history " >ประวัติของโรงพยาบาลพิชัย</a></li>
-                            <li><a href="#">วิสัยทัศน์/พันธกิจ</a></li>
+                            <li><a href="/history ">ประวัติของโรงพยาบาลพิชัย</a></li>
+                            <li><a href="/vision">วิสัยทัศน์/พันธกิจ</a></li>
                             <li><a href="#">ข้อมูลองค์กร</a></li>
                             <!-- <li><a href="#">Dropdown 4</a></li> -->
                         </ul>
@@ -526,7 +544,21 @@
                     <li class="dropdown"><a href="#"><span>เอกสาร / ข่าวสาร</span> <i
                                 class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
-                            <li class="dropdown"><a href="#"><span>เอกสาร ITA</span> <i
+                            <li class="dropdown">
+                                <a href="#" class="<?= (in_array(uri_string(), ['ita64', 'ita65', 'ita66', 'ita67', 'ita68'])) ? 'active' : '' ?>">
+                                    <span>เอกสาร ITA</span>
+                                </a>
+                                <ul>
+                                    <li><a href="/ita64" class="<?= (uri_string() == 'ita64') ? 'active' : '' ?>">ปี 2564</a></li>
+                                    <li><a href="/ita65" class="<?= (uri_string() == 'ita65') ? 'active' : '' ?>">ปี 2565</a></li>
+                                    <li><a href="/ita66" class="<?= (uri_string() == 'ita66') ? 'active' : '' ?>">ปี 2566</a></li>
+                                    <li><a href="/ita67" class="<?= (uri_string() == 'ita67') ? 'active' : '' ?>">ปี 2567</a></li>
+                                    <li><a href="/ita68" class="<?= (uri_string() == 'ita68') ? 'active' : '' ?>">ปี 2568</a></li>
+
+                                </ul>
+                            </li>
+
+                            <!-- <li class="dropdown"><a href="#"><span>เอกสาร ITA</span> <i
                                         class="bi bi-chevron-down toggle-dropdown"></i></a>
                                 <ul>
                                     <li><a href="/ita64">ปี 2564</a></li>
@@ -535,7 +567,9 @@
                                     <li><a href="/ita67">ปี 2567</a></li>
                                     <li><a href="/ita68">ปี 2568</a></li>
                                 </ul>
-                            </li>
+                            </li> -->
+                            <li><a href="#">แบบฟอร์มต่าง ๆ</a></li>
+                            <!-- 
                             <li class="dropdown"><a href="#"><span>แบบฟอร์มต่าง ๆ</span> <i
                                         class="bi bi-chevron-down toggle-dropdown"></i></a>
                                 <ul>
@@ -545,7 +579,7 @@
                                     <li><a href="/ita67">ปี 2567</a></li>
                                     <li><a href="/ita68">ปี 2568</a></li>
                                 </ul>
-                            </li>
+                            </li> -->
                             <!-- <li><a href="#">Dropdown 1</a></li>
                             <li><a href="#">Dropdown 2</a></li>
                             <li><a href="#">Dropdown 3</a></li>
@@ -571,11 +605,12 @@
                             <li><a href="#">Dropdown 4</a></li>
                         </ul>
                     </li>
-                    <li><a href="/contact">ติดต่อเรา</a></li>
+                    <li><a href="/contact" class="<?= (uri_string() == 'contact') ? 'active' : '' ?>">ติดต่อเรา</a></li>
                     <li class="dropdown"><a href="#"><span>เจ้าหน้าที่</span> <i
                                 class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
                             <li><a href="#">เข้าสู่ระบบ</a></li>
+                            <li><a href="https://utoapp3.moph.go.th/app65/slip/public/">ตรวจสอบเงินเดือน</a></li>
                             <!-- <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i
                                         class="bi bi-chevron-down toggle-dropdown"></i></a>
                                 <ul>

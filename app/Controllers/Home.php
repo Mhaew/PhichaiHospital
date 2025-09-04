@@ -25,18 +25,24 @@ class Home extends BaseController
         ]);
     }
 
-        public function news(): string
+    public function news(): string
     {
         return view('pages/news', [
             'title' => 'ข่าวประชาสัมพัน | News'
         ]);
     }
 
-            public function history(): string
+    public function history(): string
     {
         return view('pages/history', [
             'title' => 'ประวัติโรงพยาบาลพิชัย | History'
         ]);
     }
 
+    public function vision(): string
+    {
+        return view('pages/vision', [
+            'title' => 'วิสัยทัศน์/พันธกิจ | Vision/Mission'
+        ]);
+    }
 }

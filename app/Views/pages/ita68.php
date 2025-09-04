@@ -32,7 +32,7 @@
         <button onclick="location.href='#service-details-3'">MOIT2</button>
         <button onclick="location.href='#service-details-4'">MOIT3</button>
         <button onclick="location.href='#service-details-5'">MOIT4</button>
-        <!-- <button onclick="location.href='#service-details-6'">MOIT5</button>
+        <button onclick="location.href='#service-details-6'">MOIT5</button>
         <button onclick="location.href='#service-details-7'">MOIT6</button>
         <button onclick="location.href='#service-details-8'">MOIT7</button>
         <button onclick="location.href='#service-details-9'">MOIT8</button>
@@ -49,13 +49,10 @@
         <button onclick="location.href='#service-details-20'">MOIT19</button>
         <button onclick="location.href='#service-details-21'">MOIT20</button>
         <button onclick="location.href='#service-details-22'">MOIT21</button>
-        <button onclick="location.href='#service-details-23'">MOIT22</button> -->
+        <button onclick="location.href='#service-details-23'">MOIT22</button>
     </div>
 
-    <!-- <button onclick="location.href='#service-details-2'">MOIT1</button>
-    <button onclick="location.href='#service-details-3'">MOIT2</button>
-    <button onclick="location.href='#service-details-4'">MOIT3</button>
-    <button onclick="location.href='#service-details-5'">MOIT4</button> -->
+
 
     <!-- Doctors Section -->
     <section id="doctors" class="doctors section">
@@ -140,7 +137,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="<?= base_url('assets/document/pdf/moit1-2-68.pdf') ?>"
+                                            <a href="<?= base_url('assets/document/pdf/moit1-1-68.pdf') ?>"
                                                 target="_blank">
                                                 <img src="assets/img/clients/pdf.webp" alt="PDF">
                                                 <span class="doc-code">1.2.</span>
@@ -149,7 +146,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="<?= base_url('assets/document/pdf/moit1-1.1-68.pdf') ?>"
+                                            <a href="<?= base_url('assets/document/pdf/moit1-1-68.pdf') ?>"
                                                 target="_blank">
                                                 <img src="assets/img/clients/pdf.webp" alt="PDF">
                                                 <span class="doc-code">1.3.</span>
@@ -246,7 +243,7 @@
                                                 target="_blank"><img src="assets/img/clients/pdf.webp" alt="PDF">1.5.
                                                 กฎหมายเพดานหรือความงามของห้องโดยสาร<a></a></li>
                                         <li><a href="<?= base_url('assets/document/pdf/moit2-1.6-68.pdf') ?>"
-                                                target="_blank"><img src="assets/img/clients/pdf.webp" alt="PDF">2.2.
+                                                target="_blank"><img src="assets/img/clients/pdf.webp" alt="PDF">1.6.
                                                 ข่าวประชาสัมพันธ์
                                                 การเผยแพร่ข้อมูลข่าวสารอย่างเป็นทางการตามหน้าที่และอำนาจ
                                                 และองค์กรของการปฏิบัติตามข้อมูลข่าวสารอย่างสม่ำเสมอในงบประมาณ พ.ศ.

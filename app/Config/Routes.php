@@ -23,3 +23,6 @@ $routes->get('/news', 'Home::news');
 
 //History
 $routes->get('/history', 'Home::history');
+
+//EPData
+$routes->get('/epData', 'Home::epData');

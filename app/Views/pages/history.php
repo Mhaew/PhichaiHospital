@@ -1,8 +1,6 @@
 <?= $this->extend('templates/ita') ?>
 <?= $this->section('content') ?>
 
-
-
 <main class="main">
 
     <!-- Page Title -->

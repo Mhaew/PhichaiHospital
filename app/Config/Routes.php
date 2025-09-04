@@ -26,3 +26,6 @@ $routes->get('/history', 'Home::history');
 
 //EPData
 $routes->get('/epData', 'Home::epData');
+
+//Vision
+$routes->get('/vision', 'Home::vision');

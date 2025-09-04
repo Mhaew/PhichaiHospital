@@ -39,11 +39,17 @@ class Home extends BaseController
         ]);
     }
 
-    public function epData(): string
+    public function vision(): string
+    {
+        return view('pages/vision', [
+            'title' => 'วิสัยทัศน์/พันธกิจ | Vision/Mission'
+        ]);
+    }
+
+        public function epData(): string
     {
         return view('pages/epData', [
             'title' => 'ข้อมูลองค์กร | Hospital organization data'
         ]);
     }
-
 }

@@ -24,10 +24,10 @@
 
 <div id="director-box" class="custom-image-container" style="
     position:absolute; 
-    top:70px; 
-    right:300px; 
+    top:10px; 
+    right:250px; 
     width:220px;
-    aspect-ratio: 220 / 350;
+    aspect-ratio: 220 / 320;
     text-align:center; 
     border:3px solid #00aaff; 
     background:#fff; 
@@ -41,7 +41,7 @@
         style="width:100%; height:auto; display:block;">
 
     <p style="margin:5px; font-size:14px; color:#333; line-height:1.4;">
-        นายแพทย์เศรษฐวิช์ ศรีรัตนน์<br>
+        นายแพทย์เศษฐวิชช์ ศิริวัฒน์<br>
         ผู้อำนวยการโรงพยาบาลพิชัย
     </p>
 </div>

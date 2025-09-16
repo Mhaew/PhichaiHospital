@@ -474,11 +474,35 @@
             width: 90%;
             margin: 3px 0;
         }
+
+
     </style>
 
 </head>
 
 <body class="index-page">
+
+                                    <div class="custom-image-container" style="
+                                        position:absolute; 
+                                        top:70px; 
+                                        right:300px; 
+                                        width:220px; 
+                                        text-align:center; 
+                                        border:3px solid #00aaff; 
+                                        background:#fff; 
+                                        border-radius:10px;
+                                        overflow:hidden;" data-aos="fade-left" data-aos-delay="100"> 
+
+                                        <img src="assets/img/person/headMaster.jpg"
+                                            alt="ภาพเพิ่มเติม"
+                                            style="width:100%; height:auto; display:block;">
+
+                                        <p style="margin:5px; font-size:14px; color:#333; line-height:1.4;">
+                                            นายแพทย์เศรษฐวิช์ ศรีรัตนน์<br>
+                                            ผู้อำนวยการโรงพยาบาลพิชัย
+                                        </p>
+                                    </div>
+
 
     <header id="header" class="header d-flex align-items-center fixed-top">
         <div
@@ -512,7 +536,9 @@
                 <h1 class="sitename">โรงพยาบาลพิชัย</h1>
             </a>
 
+
             <nav id="navmenu" class="navmenu">
+                
                 <ul>
                     <li><a href="/" class="<?= (uri_string() == '') ? 'active' : '' ?>">หน้าหลัก</a></li>
                     <li class="dropdown"><a href="#"><span>ข้อมูลโรงพยาบาล</span> <i

@@ -37,21 +37,12 @@
                                         <button class="close-btn" onclick="document.getElementById('floatingVideo').style.display='none'">×</button>
                                         <video src="assets/video/PASULOL.mp4" controls width="300" autoplay muted playsinline></video>
                                     </div> -->
-
-
-                                    <!-- <div class="floating-image" id="floatingImageBox">
-                                        <button class="close-btn" onclick="document.getElementById('floatingImageBox').style.display='none'">×</button>
-
-                                        <img src="assets/img/person/headMaster.jpg" alt="ภาพแสดงตัวอย่าง" />
-
-                                        <div class="image-caption">
-                                            ผู้อำนวยการโรงพยาบาลพิชัย
-                                        </div>
-                                        <div class="image-caption">
-                                            นาย
-                                        </div>
-                                    </div> -->
-
+                                    <div class="floating-box" id="floatingBox" >
+                                        <button class="close-btn"
+                                            onclick="document.getElementById('floatingBox').style.display='none'">×</button>
+                                        <img src="assets/img/person/headMaster.jpg" alt="รูปภาพตัวอย่าง">
+                                        <div class="caption">คำอธิบายรูปภาพ</div>
+                                    </div>
 
                                     <div class="info-badges" data-aos="fade-up" data-aos-delay="350">
                                         <div class="badge-item">
@@ -125,9 +116,9 @@
     <!-- Home About Section -->
     <!-- <section id="home-about" class="home-about section"> -->
 
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-            <!-- <div class="row gy-5 align-items-center">
+        <!-- <div class="row gy-5 align-items-center">
                 <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
                     <div class="about-image">
                         <img src="assets/img/gallery/p2.jpg" alt="Modern Healthcare Facility" class="img-fluid rounded-3 mb-4">
@@ -177,7 +168,7 @@
                 </div>
             </div> -->
 
-            <!-- <div class="row mt-5 pt-4 certifications-row" data-aos="fade-up" data-aos-delay="600">
+        <!-- <div class="row mt-5 pt-4 certifications-row" data-aos="fade-up" data-aos-delay="600">
                 <div class="col-12 text-center mb-4">
                     <h4 class="certification-title">Our Accreditations</h4>
                 </div>
@@ -199,7 +190,7 @@
                 </div>
             </div> -->
 
-        </div>
+    </div>
 
     </section><!-- /Home About Section -->
 
@@ -324,18 +315,19 @@
                 <section>
                     <h2>Contact</h2>
                     <p>1. ตรวจสอบเงินเดือน สำหรับเจ้าหน้าที่<br>
-2. แบบฟอร์มต่าง ๆ (วันลา และ อื่น ๆ )<br>
-3. ใบซ่อม<br>
-4. เบอร์โทรศัพท์ภายใน รพ.พิชัย<br>
-5. เบอร์โทรศัพท์ โรงพยาบาลศูนย์/โรงพยาบาลชุมชน<br>
-6. พิธีน้อมรำลึกเนื่องในวันคล้ายวันสวรรคต ร.9<br>
-7. โครงการจิตอาสา เราทำความดีด้วยหัวใจ 23 ตค 65<br>
-8. พิธีวางพานพุ่ม “พระบิดาแห่งการแพทย์แผนไทย”<br>
-9. พิธีวางพวงมาลา 23 ตุลาคม 2565”<br>
-10. ทำบุญตักบาตร ใน รพ.พิชัย”<br>
-11. ความรู้เรื่องไข้หวัดนก<br>
-12. นโยบายกระทรวงสาธารณสุข<br>
-13. รายงานผลการกำกับติดตามการดำเนินงานตามแผนปฏิบัติการส่งเสริมคุณธรรมของชมรมจริยธรรมของหน่วยงาน ประจำปีงบประมาณ พ.ศ. 2568 รอบ 6 เดือน</p>
+                        2. แบบฟอร์มต่าง ๆ (วันลา และ อื่น ๆ )<br>
+                        3. ใบซ่อม<br>
+                        4. เบอร์โทรศัพท์ภายใน รพ.พิชัย<br>
+                        5. เบอร์โทรศัพท์ โรงพยาบาลศูนย์/โรงพยาบาลชุมชน<br>
+                        6. พิธีน้อมรำลึกเนื่องในวันคล้ายวันสวรรคต ร.9<br>
+                        7. โครงการจิตอาสา เราทำความดีด้วยหัวใจ 23 ตค 65<br>
+                        8. พิธีวางพานพุ่ม “พระบิดาแห่งการแพทย์แผนไทย”<br>
+                        9. พิธีวางพวงมาลา 23 ตุลาคม 2565”<br>
+                        10. ทำบุญตักบาตร ใน รพ.พิชัย”<br>
+                        11. ความรู้เรื่องไข้หวัดนก<br>
+                        12. นโยบายกระทรวงสาธารณสุข<br>
+                        13. รายงานผลการกำกับติดตามการดำเนินงานตามแผนปฏิบัติการส่งเสริมคุณธรรมของชมรมจริยธรรมของหน่วยงาน
+                        ประจำปีงบประมาณ พ.ศ. 2568 รอบ 6 เดือน</p>
                 </section>
             </div>
         </div><br><br><br><br><br><br>
@@ -365,7 +357,8 @@
                             </div> -->
                             <h3>เช็กอาการตาบอดสี! แบบทดสอบตาบอดสีฟรี เซฟไว้ก่อนไปสอบใบขับขี่ </h3>
                             <p style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; width: 300px;">
-                                ชวนทำแบบทดสอบตาบอดสี เพื่อเตรียมความพร้อมก่อนไปสอบใบขับขี่พร้อมวิธีแก้แบบง่าย ๆ ที่จะช่วยปรับการมองเห็นสีต่าง ๆ ได้ชัดเจนมากยิ่งขึ้น เพื่อลดเวลาในการสอบใบขับขี่
+                                ชวนทำแบบทดสอบตาบอดสี เพื่อเตรียมความพร้อมก่อนไปสอบใบขับขี่พร้อมวิธีแก้แบบง่าย ๆ
+                                ที่จะช่วยปรับการมองเห็นสีต่าง ๆ ได้ชัดเจนมากยิ่งขึ้น เพื่อลดเวลาในการสอบใบขับขี่
                             </p>
                             <a href="https://www.wongnai.com/articles/colour-blind-test?ref=ct" class="btn-learn-more">
                                 <span>ดูเพิ่มเติม</span>

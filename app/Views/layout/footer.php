@@ -129,6 +129,26 @@
 
 </footer>
 
+<script>
+    const sections = document.querySelectorAll("section[id^='service-details']");
+    const buttons = document.querySelectorAll("#sidebar-banner button");
+
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                buttons.forEach(btn => btn.classList.remove("active"));
+                const activeBtn = document.querySelector(
+                    `#sidebar-banner button[onclick*='${entry.target.id}']`
+                );
+                if (activeBtn) activeBtn.classList.add("active");
+            }
+        });
+    }, { threshold: 0.3 });
+
+    sections.forEach(section => observer.observe(section));
+</script>
+
+
 <!-- Scroll Top -->
 <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
         class="bi bi-arrow-up-short"></i></a>
@@ -277,21 +297,6 @@ generateCalendar();
             document.onmousemove = null;
         }
     }
-</script> -->
-
-<!-- <script>
-    window.addEventListener("load", function() {
-        const box = document.getElementById("floatingImageBox");
-        box.style.display = "block"; // แสดงกล่องก่อน
-        requestAnimationFrame(() => { // ให้ browser วาดรอบแรกก่อน
-            box.style.opacity = "1"; // แล้วค่อย fade-in
-        });
-    });
-
-    window.addEventListener("load", function() {
-        const box = document.getElementById("floatingImageBox");
-        box.classList.add("show");
-    });
 </script> -->
 
 <script>
@@ -565,8 +570,6 @@ generateCalendar();
     });
 </script>
 
-
-
 <script>
     function showTab(tabId) {
         // ซ่อนทุกแท็บ
@@ -580,10 +583,6 @@ generateCalendar();
         event.target.classList.add('active');
     }
 </script>
-
-
-
-
 
 </body>
 

@@ -462,7 +462,7 @@
 
     <style>
         #sidebar-banner {
-            max-height: 60vh;
+            max-height: 30vh;
             /* ไม่เกินความสูงของหน้าจอ */
             overflow-y: auto;
             /* มี scrollbar ด้านข้าง */
@@ -474,7 +474,73 @@
             width: 90%;
             margin: 3px 0;
         }
+
+        #sidebar-banner button.active {
+            background-color: #00ca2cc2;
+            color: white;
+            font-weight: bold;
+            border-radius: 5px;
+        }
     </style>
+
+    <!-- <style>
+        #floatingImageBox {
+            position: fixed;
+            /* ทำให้กล่องลอยอยู่กับที่ */
+            bottom: 20px;
+            /* ระยะห่างจากขอบล่าง */
+            right: 20px;
+            /* ระยะห่างจากขอบขวา */
+            opacity: 0;
+            /* เริ่มต้นโปร่งใส */
+            transition: opacity 0.5s ease;
+            /* ทำให้ fade-in ลื่น */
+        }
+
+        #floatingImageBox.show {
+            opacity: 1;
+            /* ตอนแสดง */
+        }
+    </style> -->
+
+    <style>
+  #hero {
+    position: relative; /* กำหนดให้เป็น parent ที่วางตำแหน่งได้ */
+  }
+
+  .floating-profile {
+    position: absolute;   /* ใช้ absolute ภายใน hero */
+    top: 100px;           /* ปรับตำแหน่งลงมาจากบน */
+    right: 80px;          /* ปรับระยะจากขอบขวา */
+    width: 180px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .floating-profile img {
+    width: 100%;
+    display: block;
+  }
+
+  .floating-profile .caption {
+    padding: 8px;
+    font-size: 14px;
+    color: #333;
+  }
+
+  .floating-profile .close-btn {
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  </style>
 
 </head>
 
@@ -544,15 +610,21 @@
                                 class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
                             <li class="dropdown">
-                                <a href="#" class="<?= (in_array(uri_string(), ['ita64', 'ita65', 'ita66', 'ita67', 'ita68'])) ? 'active' : '' ?>">
+                                <a href="#"
+                                    class="<?= (in_array(uri_string(), ['ita64', 'ita65', 'ita66', 'ita67', 'ita68'])) ? 'active' : '' ?>">
                                     <span>เอกสาร ITA</span>
                                 </a>
                                 <ul>
-                                    <li><a href="/ita64" class="<?= (uri_string() == 'ita64') ? 'active' : '' ?>">ปี 2564</a></li>
-                                    <li><a href="/ita65" class="<?= (uri_string() == 'ita65') ? 'active' : '' ?>">ปี 2565</a></li>
-                                    <li><a href="/ita66" class="<?= (uri_string() == 'ita66') ? 'active' : '' ?>">ปี 2566</a></li>
-                                    <li><a href="/ita67" class="<?= (uri_string() == 'ita67') ? 'active' : '' ?>">ปี 2567</a></li>
-                                    <li><a href="/ita68" class="<?= (uri_string() == 'ita68') ? 'active' : '' ?>">ปี 2568</a></li>
+                                    <li><a href="/ita64" class="<?= (uri_string() == 'ita64') ? 'active' : '' ?>">ปี
+                                            2564</a></li>
+                                    <li><a href="/ita65" class="<?= (uri_string() == 'ita65') ? 'active' : '' ?>">ปี
+                                            2565</a></li>
+                                    <li><a href="/ita66" class="<?= (uri_string() == 'ita66') ? 'active' : '' ?>">ปี
+                                            2566</a></li>
+                                    <li><a href="/ita67" class="<?= (uri_string() == 'ita67') ? 'active' : '' ?>">ปี
+                                            2567</a></li>
+                                    <li><a href="/ita68" class="<?= (uri_string() == 'ita68') ? 'active' : '' ?>">ปี
+                                            2568</a></li>
 
                                 </ul>
                             </li>

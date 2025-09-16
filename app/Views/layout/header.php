@@ -482,26 +482,7 @@
 
 <body class="index-page">
 
-                                    <div class="custom-image-container" style="
-                                        position:absolute; 
-                                        top:70px; 
-                                        right:300px; 
-                                        width:220px; 
-                                        text-align:center; 
-                                        border:3px solid #00aaff; 
-                                        background:#fff; 
-                                        border-radius:10px;
-                                        overflow:hidden;" data-aos="fade-left" data-aos-delay="100"> 
 
-                                        <img src="assets/img/person/headMaster.jpg"
-                                            alt="ภาพเพิ่มเติม"
-                                            style="width:100%; height:auto; display:block;">
-
-                                        <p style="margin:5px; font-size:14px; color:#333; line-height:1.4;">
-                                            นายแพทย์เศรษฐวิช์ ศรีรัตนน์<br>
-                                            ผู้อำนวยการโรงพยาบาลพิชัย
-                                        </p>
-                                    </div>
 
 
     <header id="header" class="header d-flex align-items-center fixed-top">
@@ -552,19 +533,15 @@
                     </li>
                     <li class="dropdown"><a href="#"><span>โครงสร้างหน่วยงาน</span> <i
                                 class="bi bi-chevron-down toggle-dropdown"></i></a>
-                        <ul>
+                        <!-- <ul>
                             <li><a href="#">กรรรมการบริหารโรงพยาบาลพิชัย</a></li>
                             <li class="dropdown"><a href="#"><span>กลุ่มงานต่าง ๆ ภายในโรงพยาบาล</span> <i
                                         class="bi bi-chevron-down toggle-dropdown"></i></a>
                                 <ul>
                                     <li><a href="#">กลุ่มงานการจัดการ</a></li>
-                                    <!-- <li><a href="#">Deep Dropdown 2</a></li>
-                                    <li><a href="#">Deep Dropdown 3</a></li>
-                                    <li><a href="#">Deep Dropdown 4</a></li>
-                                    <li><a href="#">Deep Dropdown 5</a></li> -->
                                 </ul>
                             </li>
-                        </ul>
+                        </ul> -->
                     </li>
                     <li class="dropdown"><a href="#"><span>เอกสาร / ข่าวสาร</span> <i
                                 class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -574,10 +551,10 @@
                                     <span>เอกสาร ITA</span>
                                 </a>
                                 <ul>
-                                    <li><a href="/ita64" class="<?= (uri_string() == 'ita64') ? 'active' : '' ?>">ปี 2564</a></li>
+                                    <!-- <li><a href="/ita64" class="<?= (uri_string() == 'ita64') ? 'active' : '' ?>">ปี 2564</a></li>
                                     <li><a href="/ita65" class="<?= (uri_string() == 'ita65') ? 'active' : '' ?>">ปี 2565</a></li>
                                     <li><a href="/ita66" class="<?= (uri_string() == 'ita66') ? 'active' : '' ?>">ปี 2566</a></li>
-                                    <li><a href="/ita67" class="<?= (uri_string() == 'ita67') ? 'active' : '' ?>">ปี 2567</a></li>
+                                    <li><a href="/ita67" class="<?= (uri_string() == 'ita67') ? 'active' : '' ?>">ปี 2567</a></li> -->
                                     <li><a href="/ita68" class="<?= (uri_string() == 'ita68') ? 'active' : '' ?>">ปี 2568</a></li>
 
                                 </ul>
@@ -593,7 +570,7 @@
                                     <li><a href="/ita68">ปี 2568</a></li>
                                 </ul>
                             </li> -->
-                            <li><a href="#">แบบฟอร์มต่าง ๆ</a></li>
+                            <!-- <li><a href="#">แบบฟอร์มต่าง ๆ</a></li> -->
                             <!-- 
                             <li class="dropdown"><a href="#"><span>แบบฟอร์มต่าง ๆ</span> <i
                                         class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -614,8 +591,8 @@
                     <li class="dropdown"><a href="#"><span>กิจกรรม</span> <i
                                 class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
-                            <li><a href="#">ปฏิทินกิจกรรม</a></li>
-                            <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i
+                            <!-- <li><a href="#">ปฏิทินกิจกรรม</a></li> -->
+                            <!-- <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i
                                         class="bi bi-chevron-down toggle-dropdown"></i></a>
                                 <ul>
                                     <li><a href="#">Deep Dropdown 1</a></li>
@@ -627,14 +604,14 @@
                             </li>
                             <li><a href="#">Dropdown 2</a></li>
                             <li><a href="#">Dropdown 3</a></li>
-                            <li><a href="#">Dropdown 4</a></li>
+                            <li><a href="#">Dropdown 4</a></li> -->
                         </ul>
                     </li>
                     <li><a href="/contact" class="<?= (uri_string() == 'contact') ? 'active' : '' ?>">ติดต่อเรา</a></li>
                     <li class="dropdown"><a href="#"><span>เจ้าหน้าที่</span> <i
                                 class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
-                            <li><a href="#">เข้าสู่ระบบ</a></li>
+                            <!-- <li><a href="#">เข้าสู่ระบบ</a></li> -->
                             <li><a href="https://utoapp3.moph.go.th/app65/slip/public/">ตรวจสอบเงินเดือน</a></li>
                             <!-- <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i
                                         class="bi bi-chevron-down toggle-dropdown"></i></a>

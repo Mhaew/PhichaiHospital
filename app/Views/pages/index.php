@@ -22,6 +22,45 @@
                                     <p data-aos="fade-up" data-aos-delay="250">มีหลักธรรมาภิบาล บริการด้วยใจ
                                         ให้ชุมชนเชื่อมั่น สรรค์สร้างพัฒนา</p>
 
+<div id="director-box" class="custom-image-container" style="
+    position:absolute; 
+    top:10px; 
+    right:250px; 
+    width:220px;
+    aspect-ratio: 220 / 320;
+    text-align:center; 
+    border:3px solid #00aaff; 
+    background:#fff; 
+    border-radius:10px;
+    overflow:hidden;
+    opacity:0;              /* ซ่อนตอนแรก */
+    transition: opacity 1s ease;"> <!-- ใส่ transition -->
+
+    <img src="assets/img/person/headMaster.jpg"
+        alt="ภาพเพิ่มเติม"
+        style="width:100%; height:auto; display:block;">
+
+    <p style="margin:5px; font-size:14px; color:#333; line-height:1.4;">
+        นายแพทย์เศษฐวิชช์ ศิริวัฒน์<br>
+        ผู้อำนวยการโรงพยาบาลพิชัย
+    </p>
+</div>
+
+<script>
+  // รอ 3 วินาทีแล้วค่อยทำ fade in
+  window.addEventListener("load", function() {
+    setTimeout(function() {
+      document.getElementById("director-box").style.opacity = "1";
+    }, 800);
+  });
+</script>
+
+
+
+                                    
+
+
+
                                     <!-- <div class="cta-group" data-aos="fade-up" data-aos-delay="300">
                                         <a href="appointment.html" class="btn btn-primary">Book Appointment</a>
                                         <a href="services.html" class="btn btn-outline">Explore Services</a>
@@ -255,7 +294,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="news-item">
+                            <!-- <div class="news-item">
                                 <img src="assets/img/logo_edit.png" alt="โลโก้">
                                 <a href='/'>
                                     <div class="news-content">
@@ -299,7 +338,7 @@
                                         <p>16/07/2025</p>
                                     </div>
                                 </a>
-                            </div>
+                            </div> -->
 
                         </div>
 
@@ -315,19 +354,18 @@
                 <section>
                     <h2>Contact</h2>
                     <p>1. ตรวจสอบเงินเดือน สำหรับเจ้าหน้าที่<br>
-                        2. แบบฟอร์มต่าง ๆ (วันลา และ อื่น ๆ )<br>
-                        3. ใบซ่อม<br>
-                        4. เบอร์โทรศัพท์ภายใน รพ.พิชัย<br>
-                        5. เบอร์โทรศัพท์ โรงพยาบาลศูนย์/โรงพยาบาลชุมชน<br>
-                        6. พิธีน้อมรำลึกเนื่องในวันคล้ายวันสวรรคต ร.9<br>
-                        7. โครงการจิตอาสา เราทำความดีด้วยหัวใจ 23 ตค 65<br>
-                        8. พิธีวางพานพุ่ม “พระบิดาแห่งการแพทย์แผนไทย”<br>
-                        9. พิธีวางพวงมาลา 23 ตุลาคม 2565”<br>
-                        10. ทำบุญตักบาตร ใน รพ.พิชัย”<br>
-                        11. ความรู้เรื่องไข้หวัดนก<br>
-                        12. นโยบายกระทรวงสาธารณสุข<br>
-                        13. รายงานผลการกำกับติดตามการดำเนินงานตามแผนปฏิบัติการส่งเสริมคุณธรรมของชมรมจริยธรรมของหน่วยงาน
-                        ประจำปีงบประมาณ พ.ศ. 2568 รอบ 6 เดือน</p>
+2. แบบฟอร์มต่าง ๆ (วันลา และ อื่น ๆ )<br>
+3. ใบซ่อม<br>
+4. เบอร์โทรศัพท์ภายใน รพ.พิชัย<br>
+5. เบอร์โทรศัพท์ โรงพยาบาลศูนย์/โรงพยาบาลชุมชน<br>
+6. พิธีน้อมรำลึกเนื่องในวันคล้ายวันสวรรคต ร.9<br>
+7. โครงการจิตอาสา เราทำความดีด้วยหัวใจ 23 ตค 65<br>
+8. พิธีวางพานพุ่ม “พระบิดาแห่งการแพทย์แผนไทย”<br>
+9. พิธีวางพวงมาลา 23 ตุลาคม 2565”<br>
+10. ทำบุญตักบาตร ใน รพ.พิชัย”<br>
+11. ความรู้เรื่องไข้หวัดนก<br>
+12. นโยบายกระทรวงสาธารณสุข<br>
+13. รายงานผลการกำกับติดตามการดำเนินงานตามแผนปฏิบัติการส่งเสริมคุณธรรมของชมรมจริยธรรมของหน่วยงาน ประจำปีงบประมาณ พ.ศ. 2568 รอบ 6 เดือน</p>
                 </section>
             </div>
         </div><br><br><br><br><br><br>
@@ -351,7 +389,7 @@
                         <div class="department-image">
                             <img src="assets/img/health/fb1.jpg" alt="Cardiology Department" class="img-fluid">
                         </div> -->
-                        <div class="department-content" style="">
+                        <div class="department-content">
                             <!-- <div class="department-icon">
                                 <i class="fas fa-heartbeat"></i>
                             </div> -->

@@ -22,42 +22,41 @@
                                     <p data-aos="fade-up" data-aos-delay="250">มีหลักธรรมาภิบาล บริการด้วยใจ
                                         ให้ชุมชนเชื่อมั่น สรรค์สร้างพัฒนา</p>
 
-<div id="director-box" class="custom-image-container" style="
-    position:absolute; 
-    top:10px; 
-    right:250px; 
-    width:220px;
-    aspect-ratio: 220 / 320;
-    text-align:center; 
-    border:3px solid #00aaff; 
-    background:#fff; 
-    border-radius:10px;
-    overflow:hidden;
-    opacity:0;              /* ซ่อนตอนแรก */
-    transition: opacity 1s ease;"> <!-- ใส่ transition -->
+                                    <div id="director-box" class="custom-image-container" style="
+                                        position:absolute; 
+                                        top:10px; 
+                                        right:250px; 
+                                        width:220px;
+                                        aspect-ratio: 220 / 320;
+                                        text-align:center; 
+                                        border:3px solid #00aaff; 
+                                        background:#fff; 
+                                        border-radius:10px;
+                                        overflow:hidden;
+                                        opacity:0;              /* ซ่อนตอนแรก */
+                                        transition: opacity 1s ease;"> <!-- ใส่ transition -->
 
-    <img src="assets/img/person/headMaster.jpg"
-        alt="ภาพเพิ่มเติม"
-        style="width:100%; height:auto; display:block;">
+                                        <img src="assets/img/person/headMaster.jpg" alt="ภาพเพิ่มเติม"
+                                            style="width:100%; height:auto; display:block;">
 
-    <p style="margin:5px; font-size:14px; color:#333; line-height:1.4;">
-        นายแพทย์เศษฐวิชช์ ศิริวัฒน์<br>
-        ผู้อำนวยการโรงพยาบาลพิชัย
-    </p>
-</div>
+                                        <p style="margin:5px; font-size:14px; color:#333; line-height:1.4;">
+                                            นายแพทย์เศษฐวิชช์ ศิริวัฒน์<br>
+                                            ผู้อำนวยการโรงพยาบาลพิชัย
+                                        </p>
+                                    </div>
 
-<script>
-  // รอ 3 วินาทีแล้วค่อยทำ fade in
-  window.addEventListener("load", function() {
-    setTimeout(function() {
-      document.getElementById("director-box").style.opacity = "1";
-    }, 800);
-  });
-</script>
-
+                                    <script>
+                                        // รอ 3 วินาทีแล้วค่อยทำ fade in
+                                        window.addEventListener("load", function () {
+                                            setTimeout(function () {
+                                                document.getElementById("director-box").style.opacity = "1";
+                                            }, 800);
+                                        });
+                                    </script>
 
 
-                                    
+
+
 
 
 
@@ -76,12 +75,12 @@
                                         <button class="close-btn" onclick="document.getElementById('floatingVideo').style.display='none'">×</button>
                                         <video src="assets/video/PASULOL.mp4" controls width="300" autoplay muted playsinline></video>
                                     </div> -->
-                                    <div class="floating-box" id="floatingBox" >
+                                    <!-- <div class="floating-box" id="floatingBox">
                                         <button class="close-btn"
                                             onclick="document.getElementById('floatingBox').style.display='none'">×</button>
                                         <img src="assets/img/person/headMaster.jpg" alt="รูปภาพตัวอย่าง">
                                         <div class="caption">คำอธิบายรูปภาพ</div>
-                                    </div>
+                                    </div> -->
 
                                     <div class="info-badges" data-aos="fade-up" data-aos-delay="350">
                                         <div class="badge-item">
@@ -365,7 +364,8 @@
                         10. ทำบุญตักบาตร ใน รพ.พิชัย”<br>
                         11. ความรู้เรื่องไข้หวัดนก<br>
                         12. นโยบายกระทรวงสาธารณสุข<br>
-                        13. รายงานผลการกำกับติดตามการดำเนินงานตามแผนปฏิบัติการส่งเสริมคุณธรรมของชมรมจริยธรรมของหน่วยงาน ประจำปีงบประมาณ พ.ศ. 2568 รอบ 6 เดือน</p>
+                        13. รายงานผลการกำกับติดตามการดำเนินงานตามแผนปฏิบัติการส่งเสริมคุณธรรมของชมรมจริยธรรมของหน่วยงาน
+                        ประจำปีงบประมาณ พ.ศ. 2568 รอบ 6 เดือน</p>
                 </section>
             </div>
         </div><br><br><br><br><br><br>
